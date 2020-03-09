@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LabS6_List.List">
+   <children>
+      <ListView fx:id="listView" layoutX="88.0" layoutY="71.0" prefHeight="224.0" prefWidth="423.0" />
+      <Text layoutX="218.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LIST PRODUCT">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Text>
+      <Button onAction="#addproduct" layoutX="22.0" layoutY="32.0" mnemonicParsing="false"  prefHeight="29.0" prefWidth="91.0" text="Add Product" textFill="#1a6fbf">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button onAction="#addtocart"   layoutX="479.0" layoutY="32.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="91.0" text="Add To Cart" textFill="#53adf2" />
+      <Button onAction="#showcart" layoutX="466.0" layoutY="309.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="91.0" text="Show Cart" textFill="#2372b2" />
+   </children>
+</Pane>

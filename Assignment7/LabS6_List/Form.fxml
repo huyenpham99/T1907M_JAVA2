@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="LabS6_List.Form" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="174.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NHẬP THÔNG TIN SẢN PHẨM">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Text>
+      <Label layoutX="31.0" layoutY="136.0" text="Name:" textFill="#346abf" />
+      <Label layoutX="26.0" layoutY="187.0" text="Describe" textFill="#2d71b9" />
+      <Label layoutX="26.0" layoutY="250.0" text="Price:" textFill="#4367b9" />
+      <Label layoutX="18.0" layoutY="316.0" text="Amount" textFill="#206fab" />
+      <TextField fx:id="txtName" layoutX="105.0" layoutY="132.0" prefHeight="31.0" prefWidth="324.0" />
+      <TextField fx:id="txtDescribe" layoutX="105.0" layoutY="189.0" prefHeight="31.0" prefWidth="324.0" />
+      <TextField fx:id="txtPrice" layoutX="105.0" layoutY="246.0" prefHeight="31.0" prefWidth="324.0" />
+      <TextField fx:id="txtAmount" layoutX="100.0" layoutY="306.0" prefHeight="31.0" prefWidth="330.0" />
+      <Button onAction="#addproduct" layoutX="315.0" layoutY="364.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="114.0" text="Add Product" textFill="#3063c3" />
+   </children>
+</Pane>

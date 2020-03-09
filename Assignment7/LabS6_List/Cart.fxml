@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LabS6_List.Cart">
+   <children>
+      <Text layoutX="241.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CART" wrappingWidth="57.634765625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ListView fx:id="listView1" layoutX="115.0" layoutY="75.0" prefHeight="200.0" prefWidth="417.0" />
+      <Button layoutX="5.0" layoutY="75.0" mnemonicParsing="false" onAction="#backtolist" prefHeight="25.0" prefWidth="95.0" text="Back To List" textFill="#25a6dd" />
+   </children>
+</Pane>
